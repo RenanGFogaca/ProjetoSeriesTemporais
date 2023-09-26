@@ -177,6 +177,11 @@ li:hover {
     justify-content: right;
 }
 
+.titulo-relatorio {
+    display: flex;
+    font-size: larger;
+}
+
 .titulo-nav-perguntas {
     padding: 2rem;
     font-size: 2.75rem;
@@ -192,7 +197,8 @@ li:hover {
 }
 
 .intro-relatorio p {
-    font-size: 1.6rem;
+    padding-top: 5rem;
+    font-size: 1.3rem;
     width: 79%;
     text-align: justify;
 }
