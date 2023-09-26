@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Projeto | Página inicial</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <section class="titulo_container">
+      <img src="./img/logo (1).svg" alt="" srcset=""> 
+      <p class="titulo"><a href="./index.html" class="titulo-link">IPEA</a></p>
+    </section>
+    <nav class="navbar">
+      <button class="btn_atualizar">Atualizar dados</button>
+      <button class = "btn_series" id = "macro"><a href = "./pages/exemplo2.html" class="temas">Macroeconômico</a></button>
+      <button class = "btn_series" id = "regio"><a href = "./pages/exemplo2.html" class="temas">Regional</a></button>
+      <button class = "btn_series" id = "soc"><a href = "./pages/exemplo2.html" class="temas">Social</a></button>
+      <section class="button_container ">
+        <button class="buttons" id="tutorial">FAQ</button>
+        <button class="buttons" id="about">Sobre o projeto</button>
+      </section>
+
+    </nav>
+
+  </header>
+  <main class="main">
+    <aside class="sidebar">
+      <h2 class="titulo-sidebar">Sobre a série</h2>
+        <ul>
+          <li>
+            Introdução 
+          </li>
+          <li>
+            Análise exploratória
+          </li>
+          <li>
+            Análise da Série
+          </li>
+          <li>
+            Conclusões
+          </li>
+        </ul>
+    </aside>
+    <section class="grafico_container">
+      <section class="intro-relatorio">
+        <!-- Aqui é onde vamos fazer a importação das análises em R-->
+        <p>Plataforma <a href ="http://www.ipeadata.gov.br" target="_blank" class="keyword">IpeaData</a> reúne bases de dados econômicos, financeiros, demográficos, geográficos e sociais sobre temas diversos, como renda, educação, saúde, habitação e emprego. Além de disponibilizar o acesso às informações, o IpeaData permite que você baixe as bases para utilizá-las em seus trabalhos e nos estudos.
+        <br>
+        <br>
+        Os dados disponibilizados são de uso público, sendo permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas.</p>
+        <img src="./img/ipeadata.png" id="imagem1">
+        <!--<img src="./img/graph02.png"id="imagem2">
+        <img src="./img/graph02.jpeg" id="imagem3">-->
+      </section>
+      <!--<section class="ini-relatorio">
+        <div>
+          <p>a analise dos dados busca compreender os padrões</p>
+        </div>
+      </section> -->
+    </section>
+  </main>
+</body>
+
+</html>
