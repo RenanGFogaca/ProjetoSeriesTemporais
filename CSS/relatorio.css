@@ -166,29 +166,51 @@ li:hover {
 
 .intro-relatorio {
     display: flex; 
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 1.6rem;
     padding: 0 3.2rem;
-    justify-content: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+
+}
+
+.data1, .data2 {
+    display: flex;
+    flex-direction: end;
+    margin-right: 10rem;
+}
+
+.data1 p, .data2 p {
+    display: flex;
+   justify-content: end;
+}
+
+.data1 input, .data2 input {
+    display: flex;
+    margin-left: 1.5rem;
 }
 
 .intro-relatorio p {
-    font-size: 1.6rem;
-    width: 79%;
+    font-size: 1.3rem;
+    width: 90%;
     text-align: justify;
 }
 
-.intro-relatorio img {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.analise1, .analise2, .analise3, .analise4{
+.analise1{
     width: 45%;
+    display: flex;
+    margin: 1rem 20rem;
 }
 
-#exemplo1, #exemplo2, #exemplo3, #exemplo4 {
-    margin-top: 2rem;
-    max-width: 70%;
+#Relatorio {
+    display: flex;
+    margin-left: 5rem;
+    max-width: 70%; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
 }
 
 .btn-config {
@@ -198,6 +220,5 @@ li:hover {
 
 .btn-config:focus {
     background-color: aqua;
-
 }
 
